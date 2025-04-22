@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Jura:wght@300..700&family=Outfit:wght@100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+body{
+    background: #034F68;
+}
+header {
+    background: #010101;
+}
+
+.menu>ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.menu>ul>li>a {
+    color: #FFF;
+    text-align: center;
+    font-family: Jura;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    display: block;
+}
+
+.menu>ul>li {
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+.main_menu {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    height: 100%;
+}
+
+.right_btn>a {
+    color: #000;
+    /* text-align: center; */
+    font-family: Jura;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    z-index: 999;
+    text-align: center;
+    width: 170px !important;
+    height: 50px !important;
+    display: block;
+}
+
+.right_btn>a>span.svg {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+}
+span.btn-text {
+    position: absolute !important;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    text-align: center;
+}
