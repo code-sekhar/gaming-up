@@ -1,0 +1,349 @@
+@media only screen and (max-width: 375px) and (min-width: 346px) {}
+
+@media only screen and (max-width: 744px) and (min-width: 300px) {
+    .col-lg-6.mobile_none {
+        display: none;
+    }
+    
+    .hero_text>h1 {
+        font-size: 35px;
+    }
+    
+    .hero_text>h4 {
+        font-size: 26px;
+    }
+    
+    .logo_main>img {
+        width: 67%;
+    }
+    
+    .hero_section {
+        height: 400px;
+        background-position: center center;
+    }
+    
+    .hero_text {
+        height: 400px;
+    }
+    .welcome_text.comon>h2 {
+        font-size: 30px;
+        margin-bottom: 28px;
+    }
+    
+    .welcome_text.comon>h2>br {
+        display: none;
+    }
+    
+    .welcome_sections {
+        padding-top: 87px;
+    }
+    
+    .welcome_desc.comon {
+        padding-bottom: 50px;
+    }
+    .welcome_text.comon>h2 {
+        font-size: 30px;
+        margin-bottom: 28px;
+    }
+    
+    .welcome_text.comon>h2>br {
+        display: none;
+    }
+    
+    .welcome_sections {
+        padding-top: 0;
+    }
+    
+    
+    .welcome_text.comon {
+        padding-top: 45px;
+    }
+    
+    .border-bottoms {
+        bottom: 0px;
+    }
+    img.top_gr {
+        top: 0;
+    }
+    .gaming_section {
+        padding: 0px 0px;
+    }
+    img.top_gr {
+        top: 0;
+    }
+    
+    .gaming_content>h2 {
+        font-size: 30px;
+        margin-bottom: 13px;
+    }
+    
+    .gaming_section {
+        width: 100%;
+        height: auto;
+        background: url(../img/gaming_bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        padding-bottom: 60px;
+    }
+    
+    img.gm_bg {
+        display: none;
+    }
+    
+    .top_border_youtube {
+        top: -24px;
+    }
+    .introduce_section>img.intro_bg {
+        position: absolute;
+        top: 0;
+  
+    }
+    .game_type_wrapers{
+        height: auto;
+    }
+    .game_type_boxs {
+        margin-bottom: 60px;
+    }
+    .product_section {
+        position: relative;
+        top: 0;
+        height: auto;
+    }
+    .bottom_border_youtube {
+        bottom: -17px;
+    }
+    .wrape_intro {
+        padding: 30px 0px;
+    }
+    .product_main_section {
+        position: static;
+        left: 0;
+        right: 0;
+        top: 0;
+        transform: unset;
+    }
+    .damon_main_content {
+        padding-top: 40px;
+        position: static;
+    }
+    .introduce_section {
+        height: auto;
+    }
+    .demon_section {
+        position: relative;
+    }
+    img.demon_bg {
+        width: 100%;
+        height: auto;
+    }
+    .demon_text>h2 {
+        font-size: 35.57px;
+
+    }
+    .demon_card>img {
+        width: 100%;
+        margin: auto;
+    }
+    .bottom_border {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -190px;
+    }
+    .heading_text>h4 {
+        margin-bottom: 18px;
+    } 
+    .chart_img>img {
+        width: 306px;
+    }
+    .faq_section {
+        position: relative;
+        top: 0;
+    }
+    .main_mt_wraper {
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        height: 100%;
+        padding: 60px 0;
+    }
+    .faq_content>h2 {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+ 
+    .faq-container {
+        max-width: 100%;
+        margin: auto;
+        font-family: Arial, sans-serif;
+    }
+    .footer_logo>img {
+        width: 80%;
+    }
+    img.faq_bg {
+        width: 100%;
+        display: none;
+    }
+    .main_faq {
+        position: static;
+    
+    }
+    .faq_section {
+        background: #fff;
+        padding: 50px 0px;
+    }
+    .faq_section {
+        background: #fff;
+        padding: 50px 0px;
+    }
+    
+    img.demon_bg {
+        display: none;
+    }
+    
+    .demon_card {
+        margin-bottom: 30px;
+    }
+    .chart_content {
+        display: block;
+        padding-left: 60px;
+        margin-top: 40px;
+    }
+    .footer_link>ul {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        text-align: center;
+    }
+    .footer_link>ul>li {
+  
+        margin-bottom: 20px;
+    }
+    .chart_content {
+        display: block;
+        padding-left: 60px;
+        margin-top: 40px;
+    }
+    
+    footer.footer_sections {
+        padding-top: 50px;
+    }
+    
+    .inner_footer {
+        top: 50px;
+    }
+    .heading_text>h2{
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    .chart_main_data {
+        padding-top: 50px;
+    }
+    .chart_content {
+        display: block;
+        padding-left: 60px;
+        margin-top: 40px;
+    }
+    
+    footer.footer_sections {
+        padding-top: 50px;
+    }
+    
+    .inner_footer {
+        top: 50px;
+    }
+    
+    .chart_main_data {
+        padding-top: 50px;
+        padding-bottom: 0px;
+    }
+    .mountain_point {
+        padding-bottom: 0px;
+    }
+    img.mountain_bg {
+        display: none;
+    }
+    .demon_section {
+        position: relative;
+        top: 0;
+        z-index: -1;
+    }
+    .main_hero_product {
+        margin-bottom: 20px;
+    }
+    img.mountain_bg {
+        display: none;
+    }
+    
+    .main_hero_product {
+        margin-bottom: 20px;
+    }
+    
+    img.product_bg {
+        display: none;
+    }
+    
+    .heading_text>h2 {
+        margin-bottom: 30px;
+    }
+    .demon_text>h2 {
+        margin-bottom: 30px;
+    }
+    .wrape_intro{
+        position: static;
+    }
+}
+
+@media only screen and (max-width: 555px) and (min-width: 376px) {}
+
+@media only screen and (max-width: 768px) and (min-width: 544px) {}
+
+@media only screen and (max-width: 1222px) and (min-width: 999px) {}
+
+@media only screen and (max-width: 1658px) and (min-width: 1000px) {}
+
+@media only screen and (max-width: 1200px) and (min-width: 993px) {
+
+}
+
+@media only screen and (max-width: 991px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 400px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 826px) and (min-width: 572px) {}
+
+@media only screen and (max-width: 370px) and (min-width: 320px) {}
+
+@media only screen and (max-width: 900px) and (min-width: 370px) {}
+
+@media only screen and (max-width: 551px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 1024px) and (min-width: 826px) {}
+
+@media only screen and (max-width: 11200px) and (min-width: 1600px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 400px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 551px) {}
+
+@media only screen and (max-width: 1422px) and (min-width: 1300px) {}
+
+@media only screen and (max-width: 1524px) and (min-width: 1422px) {}
+
+@media only screen and (max-width: 1657) and (min-width: 1524px) {}
+
+@media only screen and (max-width: 11200px) and (min-width: 1400px) {}
+
+@media only screen and (max-width: 1000px) and (min-width: 700px) {}
+
+/* USA Ventures  */
+@media only screen and (max-width: 999px) and (min-width: 300px) {
+  
+}
+
+@media only screen and (max-width: 999px) and (min-width: 768px) {}
