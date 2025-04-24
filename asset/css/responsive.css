@@ -355,6 +355,13 @@
         bottom: -39px;
         z-index: 999;
     }
+    .game_box_img {
+        position: absolute;
+        bottom: -40px;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 555px) and (min-width: 376px) {}
