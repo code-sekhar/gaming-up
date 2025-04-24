@@ -290,7 +290,7 @@ img.top_gr {
 }
 .bottom_border_youtube {
     position: absolute;
-    bottom: -72px;
+    bottom: -55px;
     left: 0;
     right: 0;
     z-index: 999;
@@ -933,4 +933,7 @@ a.closebtn {
 }
 .mobile_menus {
     display: none;
+}
+.container.onlythis {
+    height: 620px;
 }
