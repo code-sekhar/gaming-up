@@ -1,6 +1,6 @@
 @media only screen and (max-width: 375px) and (min-width: 346px) {}
 
-@media only screen and (max-width: 744px) and (min-width: 300px) {
+@media only screen and (max-width: 999px) and (min-width: 300px) {
     .col-lg-6.mobile_none {
         display: none;
     }
@@ -259,7 +259,7 @@
     }
     
     .chart_main_data {
-        padding-top: 50px;
+        padding-top: 0px;
         padding-bottom: 0px;
     }
     .mountain_point {
@@ -296,6 +296,64 @@
     }
     .wrape_intro{
         position: static;
+    }
+    a.mobile_bar{
+        display: block;
+    }
+    .ani_img_wraper {
+        text-align: center;
+    }
+    .ani_img_wraper>img {
+        width: 70%;
+    }
+    .ani_img_wraper {
+        text-align: center;
+    }
+    
+    img.intro_bg {
+        display: none;
+    }
+    .ani_img_wraper {
+        text-align: center;
+    }
+    
+    img.intro_bg {
+        display: none;
+    }
+    
+    a.mobile_bar {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+    .introduce_section {
+        padding: 0px 0px;
+        padding-bottom: 60px;
+    }
+    .hero_text {
+        padding-bottom: 40px;
+    }
+    .building_img>img {
+        width: 100%;
+    }
+    .faq_wrapes_img>img {
+        width: 100%;
+    }
+    .right_btn>a>span.svg>svg{
+        position: absolute;
+        z-index: -1;
+        left: 0;
+        width: 150px !important;
+    }
+    .right_btn>a{
+        width: 150px !important;
+    }
+    .youtube_content>iframe {
+        height: 350px;
+    }
+    img.slider_border {
+        bottom: -39px;
+        z-index: 999;
     }
 }
 
