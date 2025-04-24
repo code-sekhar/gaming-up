@@ -373,7 +373,54 @@
 
 @media only screen and (max-width: 1222px) and (min-width: 999px) {}
 
-@media only screen and (max-width: 1658px) and (min-width: 1000px) {}
+@media only screen and (max-width: 1658px) and (min-width: 1000px) {
+    .introduce_section>img.intro_bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+    }
+    .product_main_section {
+        padding: 50px 0px;
+        padding-bottom: 0 !important;
+        top: 0;
+        transform: unset;
+    }
+    .game_box_img {
+        position: absolute;
+        bottom: -40px;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+    .introduce_section {
+        height: 616px;
+    }
+    .bottom_border {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -140px;
+    }
+    .nft_header {
+        margin-top: 10px;
+
+    }
+    img.slider_border {
+        bottom: -154px;
+    }
+    .chart_img>img {
+        width: 400px;
+    }
+    .chart_content>ul>li {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 20px;
+    }
+}
 
 @media only screen and (max-width: 1200px) and (min-width: 993px) {
 
