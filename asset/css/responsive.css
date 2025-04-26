@@ -1,16 +1,46 @@
 @media only screen and (max-width: 375px) and (min-width: 346px) {}
 
 @media only screen and (max-width: 999px) and (min-width: 300px) {
+
+    .welcome_text.comon>.welc_btn {
+        display: none;
+    }
+
+    .welcome_text.comon {
+        text-align: center;
+    }
+
+    .welcome_desc.comon {
+        text-align: center;
+    }
     .col-lg-6.mobile_none {
         display: none;
     }
     
     .hero_text>h1 {
-        font-size: 35px;
+        color: #FFF;
+        text-shadow: 0px 0.933px 1.866px rgba(0, 0, 0, 0.45);
+        -webkit-text-stroke-width: 0.52px;
+        -webkit-text-stroke-color: #FFF;
+        font-family: "Bruno Ace";
+        font-size: 22.133px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
     }
     
     .hero_text>h4 {
-        font-size: 26px;
+        color: #FFF;
+        text-shadow: 0px 0.781px 4.688px rgba(0, 0, 0, 0.35);
+        -webkit-text-stroke-width: 0.41px;
+        -webkit-text-stroke-color: #FFF;
+        font-family: "Bruno Ace";
+        font-size: 19.216px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
     }
     
     .logo_main>img {
@@ -26,10 +56,27 @@
         height: 400px;
     }
     .welcome_text.comon>h2 {
-        font-size: 30px;
+        color: #FFF;
+        text-align: center;
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: #FFF;
+        font-family: "Bruno Ace";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
         margin-bottom: 28px;
     }
-    
+    .welcome_desc.comon>p {
+        color: #FFF;
+        text-align: center;
+        font-family: Outfit;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
     .welcome_text.comon>h2>br {
         display: none;
     }
@@ -39,12 +86,9 @@
     }
     
     .welcome_desc.comon {
-        padding-bottom: 50px;
+        padding-bottom: 0px;
     }
-    .welcome_text.comon>h2 {
-        font-size: 30px;
-        margin-bottom: 28px;
-    }
+
     
     .welcome_text.comon>h2>br {
         display: none;
@@ -73,21 +117,169 @@
     }
     
     .gaming_content>h2 {
-        font-size: 30px;
-        margin-bottom: 13px;
+        color: #FFF;
+        text-shadow: 0px 1.099px 2.199px rgba(0, 0, 0, 0.45);
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: #FFF;
+        font-family: "Bruno Ace";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-bottom: 30px;
     }
-    
+    .gaming_content{
+        text-align: center;
+    }
+    .gaming_content>p{
+        color: #FFF;
+        text-align: center;
+        font-family: Outfit;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
     .gaming_section {
         width: 100%;
         height: auto;
-        background: url(../img/gaming_bg.png);
+        background: url(../img/a-m-bg.png);
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: center;
+        /* background-position: center; */
         position: relative;
         padding-bottom: 60px;
+        /* background-position-x: center; */
+        margin-top: -2px;
+    }
+    .introduce_section{
+        width: 100%;
+        height: auto;
+        background: url(../img/mc_bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .product_section{
+        width: 100%;
+        height: auto;
+        background: url(../img/go.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: center;
+    }
+    .demon_section{
+            width: 100%;
+            height: auto;
+            background: url(../img/p_bg.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position-x: center;
+    }
+    .mountain_point{
+        width: 100%;
+        height: auto;
+        background: url(../img/chart_bg_m.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: center;
+    }
+    .demon_text {
+        text-align: center;
+    }
+    .heading_text>h2 {
+        color: #FFF;
+        text-shadow: 0px 2.911px 5.821px rgba(0, 0, 0, 0.45);
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: #FFF;
+        font-family: "Bruno Ace";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-bottom: 0;
     }
     
+    .chart_img {
+        text-align: center;
+    }
+    
+    .chart_content>ul>li {
+        color: #FFF;
+        font-family: Outfit;
+        font-size: 14.027px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 14px;
+    }
+    
+    .chart_content>ul>li::after {
+        width: 19.54px;
+        height: 7.056px;
+        flex-shrink: 0;
+        left: -32px;
+    }
+    .demon_text>h2 {
+        color: #FFF;
+        text-shadow: 0px 2.911px 5.821px rgba(0, 0, 0, 0.45);
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: #FFF;
+        font-family: "Bruno Ace";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-bottom: 16px;
+    }
+    
+    .demon_text>p {
+        color: #FFF;
+        text-align: center;
+        font-family: Outfit;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .nft_header {
+        margin-top: 0px;
+    }
+    .demon_section {
+        padding-bottom: 40px;
+    }
+    .introduce_content>p {
+        margin-bottom: 0;
+        color: #FFF;
+        text-align: center;
+        font-family: Outfit;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .game_type_wrapers {
+        padding-top: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .product_section {
+        position: relative;
+        top: 0px;
+        height: auto;
+        padding-top: 60px;
+        padding-bottom: 120px;
+        width: 100%;
+    }
+    .mobile_demon_img>img {
+        width: 100%;
+    }
+    .mobile_demon_img{
+        display: block;
+    }
     img.gm_bg {
         display: none;
     }
@@ -210,7 +402,7 @@
     }
     .chart_content {
         display: block;
-        padding-left: 60px;
+        padding-left: 30px;
         margin-top: 40px;
     }
     .footer_link>ul {
@@ -246,7 +438,7 @@
     }
     .chart_content {
         display: block;
-        padding-left: 60px;
+        padding-left: 30px;
         margin-top: 40px;
     }
     
@@ -304,7 +496,7 @@
         text-align: center;
     }
     .ani_img_wraper>img {
-        width: 70%;
+        width: 100%;
     }
     .ani_img_wraper {
         text-align: center;
@@ -364,6 +556,156 @@
     }
     .container.onlythis {
         height: auto;
+    }
+    .desk_none{
+        display: block;
+    }
+    .mobile_none{
+        display: none;
+    }
+    .chart_content {
+        display: flex;
+        margin-top: 25px;
+    }
+    
+    .heading_text>h2 {
+        color: #FFF;
+        text-shadow: 0px 2.911px 5.821px rgba(0, 0, 0, 0.45);
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: #FFF;
+        font-family: "Bruno Ace";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-bottom: 0;
+    }
+    .faq_section{
+        width: 100%;
+        height: auto;
+        background: url(../img/m-w.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: center;
+    }
+    .faq_content {
+        text-align: center;
+    }
+    
+    .faq_content>h4 {
+        color: #0A0B08;
+        font-family: "Bruno Ace";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+    
+    .faq_content>h2 {
+        color: #0A0B08;
+        text-align: center;
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: #0A0B08;
+        font-family: "Bruno Ace";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+    
+    .faq-item {
+        padding: 9px;
+    }
+    
+    .faq-question {
+        color: #000;
+        font-family: Outfit;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    
+    .faq-item {
+        margin-bottom: 10px;
+    }
+    
+    .faq_wrapes_img>img {
+        width: 300px;
+        justify-content: center;
+    }
+    
+    .faq_wrapes_img {
+        justify-content: center;
+    }
+    
+    .faq_section {
+        padding-top: 81px;
+    }
+    footer.footer_sections {
+        width: 100%;
+
+        background: url(../img/m-f.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: bottom;
+        height: 700px;
+
+    }
+
+    img.footer_bg {
+        display: none;
+    }
+    .inner_footer {
+        position: static;
+
+    }
+    .footer_social {
+        margin-bottom: auto;
+    }
+    .demon_text>h2 {
+        color: #FFF;
+        text-shadow: 0px 2.911px 5.821px rgba(0, 0, 0, 0.45);
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: #FFF;
+        font-family: "Bruno Ace";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-bottom: 18px;
+    }    
+
+
+    .heading_text>h2 {
+        margin-bottom: 20px;
+    }
+
+    .heading_text>p {
+        color: #FFF;
+        text-align: center;
+        font-family: Outfit;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .game_type_wrapers {
+        background: linear-gradient(181deg, #04455B 7.01%, #084A60 83.46%);
+        height: auto;
+        position: relative;
+        padding: 30px;
+        padding-top: 0px;
+        top: 0;
+        padding-top: 0px !important;
+    }
+    body {
+        background: #04455b !important;
     }
 }
 

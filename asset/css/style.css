@@ -937,3 +937,12 @@ a.closebtn {
 .container.onlythis {
     height: 620px;
 }
+.desk_none{
+    display: none;
+}
+.mobile_demon_img{
+    display: none;
+}
+.building_img_mobile>img {
+    width: 100%;
+}
