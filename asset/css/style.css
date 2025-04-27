@@ -75,7 +75,7 @@ span.btn-text {
 /*hero*/
 .hero_section {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     background: url(../img/hero.png);
     background-size:cover;
     background-repeat: no-repeat;
@@ -111,7 +111,7 @@ span.btn-text {
 
 .hero_text {
     text-align: center;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -254,7 +254,7 @@ img.top_gr {
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 .gaming_content>p {
@@ -267,7 +267,11 @@ img.top_gr {
 }
 
 .gaming_section {
-    padding: 350px 0px;
+    padding: 100px 0px;
+}
+.gm_bg {
+    position: absolute;
+    height: 100%;
 }
 /*---------------------Youtube---------------------*/
 .top_border_youtube>img {
